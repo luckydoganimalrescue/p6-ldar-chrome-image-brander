@@ -1,11 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.tailwindcss.com/4.0.0/tailwind.min.css" rel="stylesheet">
-    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans|PT+Sans+Narrow" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="/sites/all/themes/ldthree/icons/apple-touch-icon.png">
+    <link rel="canonical" href="https://www.luckydoganimalrescue.org/home" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/sites/all/themes/ldthree/icons/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/sites/all/themes/ldthree/icons/favicon-32x32.png">
+    <link rel="shortcut icon" href="/sites/all/themes/ldthree/icons/favicon.ico">
+    <link rel="shortcut icon" href="https://www.luckydoganimalrescue.org/sites/all/themes/ldthree/favicon.ico" type="image/vnd.microsoft.icon" />
+    <link rel="shortlink" href="https://www.luckydoganimalrescue.org/node/19010" />
+    <meta charset="utf-8" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="HandheldFriendly" content="1" />
+    <meta name="MobileOptimized" content="width" />
+    <meta name="theme-color" content="#ffffff">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+    <title>Home | Lucky Dog Animal Rescue</title>
     <style>
         body {
             display: flex;
@@ -28,44 +39,45 @@
             padding: 20px;
             box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.1);
         }
-
-        .form-container input, .form-container label, .form-container button {
+        
+        .form-container input,
+        .form-container label,
+        .form-container button {
             font-size: 1.3em;
         }
     </style>
 </head>
-
-<body>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-19010 node-type-page site-name-hidden atr-7.x-3.x atv-7.x-3.4">
     <!-- Content Area -->
     <div class="form-container">
         <!-- Email form field -->
-        <form class="mt-6" action="https://zf9tjrfgd1.execute-api.us-east-1.amazonaws.com/prod/brand-image" method="POST" enctype="multipart/form-data">
-            <!-- File upload button -->
-            <div class="flex justify-center mb-8">
-                <label
-                    class="w-64 flex flex-col items-center px-4 py-6 bg-white text-blue rounded-lg shadow-lg tracking-wide uppercase border border-blue cursor-pointer hover:bg-blue hover:text-white">
-                    <span>Select a file</span>
-                    <input type='file' name='image' class="hidden" />
-                </label>
-            </div>
-            <br />
-            <label class="block text-gray-700 text-sm font-bold mb-2" for="email">
-                Email
-            </label>
-            <input
-                class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                id="email" name="email" type="text" placeholder="Email">  
-           <!-- Submit button -->
-            <div class="flex justify-center mt-4">
-                <br />
-                <button
-                    class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
-                    type="submit">
-                Submit
-                </button>
-            </div>
-        </form>
+        <form class="mt-6" action="https://zf9tjrfgd1.execute-api.us-east-1.amazonaws.com/prod/brand-image" method="POST"
+        enctype="multipart/form-data">
+        <!-- File upload button -->
+        <div class="flex justify-center mb-8">
+            <label
+            class="w-64 flex flex-col items-center px-4 py-6 bg-white text-blue rounded-lg shadow-lg tracking-wide uppercase border border-blue cursor-pointer hover:bg-blue hover:text-white">
+            <span>Select a file</span>
+            <input type='file' name='image' class="hidden" />
+        </label>
     </div>
+    <br />
+    <label class="block text-gray-700 text-sm font-bold mb-2" for="email">
+        Email
+    </label>
+    <input
+    class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+    id="email" name="email" type="text" placeholder="Email">
+    <!-- Submit button -->
+    <div class="flex justify-center mt-4">
+        <br />
+        <button
+        class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+        type="submit">
+        Submit
+    </button>
+</div>
+</form>
+</div>
 </body>
-
 </html>

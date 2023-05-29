@@ -1,0 +1,9 @@
+- icon: https://developer.chrome.com/docs/webstore/images/#icons
+- screenshots: Up to a maximum of 5 1280x800 or 640x400 JPEG or 24-bit PNG (no alpha)
+- promot tile: 440x280 Canvas JPEG or 24-bit PNG (no alpha)
+- marquee promo tile: 400x560 Canvas JPEG or 24-bit PNG (no alpha)
+- brand with ldar
+- use dns endpoint
+- move to a s3 static site and load index.html for popup.html
+- github actions to release it
+- ci/cd

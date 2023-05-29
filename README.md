@@ -13,12 +13,6 @@ Upload a jpeg, png, or gif. Receive a sized and branded one back.
 ![./assets/form.png](./assets/form.png)
 ![./assets/result.png](./assets/result.png)
 
-## TODO
-
-- Allow a zip file of images
-- Dark/Light detection for watermark selection
-- Use LDAR site layout
-
 ## Author
 
 Philip M. Gollucci <pgollucci@p6m7g8.com>
